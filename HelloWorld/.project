@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HelloWorld</name>
+	<comment></comment>
+	<projects>
+		<project>HelloWorld_dx</project>
+		<project>HelloWorld_j</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
