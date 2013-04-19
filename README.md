@@ -1,3 +1,3 @@
 # leafsoar 的代码示例
 
-<http://blog.leafsoar.com>
+详细内容见博客 <http://blog.leafsoar.com>
