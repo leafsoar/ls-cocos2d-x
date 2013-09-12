@@ -57,7 +57,7 @@ STATICLIBS_DIR = $(COCOS2DX_ROOT)/cocos2dx/platform/third_party/linux/libraries
 endif
 STATICLIBS = 
 STATICLIBS = $(STATICLIBS_DIR)/libfreetype.a \
-				$(STATICLIBS_DIR)/libxml2.a \
+#				$(STATICLIBS_DIR)/libxml2.a \
 				$(STATICLIBS_DIR)/libpng.a \
 				$(STATICLIBS_DIR)/libjpeg.a \
 				$(STATICLIBS_DIR)/libtiff.a \
@@ -92,7 +92,7 @@ debug: $(TARGET)
 release: BIN_DIR = $(BIN_DIR_ROOT)/release
 release: CCFLAGS += -O3
 release: CXXFLAGS += -O3
-release: SHAREDLIBS += -L.$(COCOS2DX_ROOT)/lib/linux/Release -lcocos2d -lrt -lz -lcocosdenshion
+release: SHAREDLIBS += -L$(COCOS2DX_ROOT)/lib/linux/Release -lcocos2d -lrt -lz -lcocosdenshion
 release: SHAREDLIBS += -Wl,-rpath,$(COCOS2DX_ROOT)/lib/linux/Release/
 release: DEFINES += -DNDEBUG
 release: $(TARGET)
