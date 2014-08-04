@@ -1,0 +1,21 @@
+.svn
+.DS_Store
+# proj.android
+bin
+obj
+gen
+assets
+*.so
+# proj.ios
+project.xcworkspace
+xcuserdata
+build
+# proj.linux
+# tolua++
+~$*.*
+CMakeFiles
+cocos2d
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+lib
